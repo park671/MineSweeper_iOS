@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32326FB2406608900A5E0D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F32326FA2406608900A5E0D0 /* AppDelegate.m */; };
+		F32326FE2406608900A5E0D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32326FD2406608900A5E0D0 /* ViewController.m */; };
+		F32327012406608900A5E0D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32326FF2406608900A5E0D0 /* Main.storyboard */; };
+		F32327032406608B00A5E0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32327022406608B00A5E0D0 /* Assets.xcassets */; };
+		F32327062406608B00A5E0D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32327042406608B00A5E0D0 /* LaunchScreen.storyboard */; };
+		F32327092406608B00A5E0D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F32327082406608B00A5E0D0 /* main.m */; };
+		F3232711240660A200A5E0D0 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3232710240660A200A5E0D0 /* GameView.m */; };
+		F32327142406C0FB00A5E0D0 /* MyThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F32327132406C0FB00A5E0D0 /* MyThread.m */; };
+		F323271C24078D2800A5E0D0 /* GameEngineNative.c in Sources */ = {isa = PBXBuildFile; fileRef = F323271A24078D2800A5E0D0 /* GameEngineNative.c */; };
+		F323272324080E0400A5E0D0 /* marking.wav in Resources */ = {isa = PBXBuildFile; fileRef = F323271E24080E0300A5E0D0 /* marking.wav */; };
+		F323272424080E0400A5E0D0 /* check.wav in Resources */ = {isa = PBXBuildFile; fileRef = F323271F24080E0300A5E0D0 /* check.wav */; };
+		F323272524080E0400A5E0D0 /* bomb.wav in Resources */ = {isa = PBXBuildFile; fileRef = F323272024080E0300A5E0D0 /* bomb.wav */; };
+		F323272624080E0400A5E0D0 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = F323272124080E0400A5E0D0 /* win.wav */; };
+		F323272724080E0400A5E0D0 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = F323272224080E0400A5E0D0 /* start.wav */; };
+		F323272C240A484900A5E0D0 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F323272B240A484900A5E0D0 /* MyNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F32326F62406608900A5E0D0 /* MineSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32326F92406608900A5E0D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F32326FA2406608900A5E0D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F32326FC2406608900A5E0D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F32326FD2406608900A5E0D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F32327002406608900A5E0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F32327022406608B00A5E0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F32327052406608B00A5E0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F32327072406608B00A5E0D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32327082406608B00A5E0D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F323270F240660A200A5E0D0 /* GameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		F3232710240660A200A5E0D0 /* GameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		F32327122406C0FB00A5E0D0 /* MyThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyThread.h; sourceTree = "<group>"; };
+		F32327132406C0FB00A5E0D0 /* MyThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyThread.m; sourceTree = "<group>"; };
+		F323271A24078D2800A5E0D0 /* GameEngineNative.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GameEngineNative.c; sourceTree = "<group>"; };
+		F323271B24078D2800A5E0D0 /* GameEngineNative.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameEngineNative.h; sourceTree = "<group>"; };
+		F323271D2407EB9300A5E0D0 /* StateSetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateSetter.h; sourceTree = "<group>"; };
+		F323271E24080E0300A5E0D0 /* marking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = marking.wav; sourceTree = "<group>"; };
+		F323271F24080E0300A5E0D0 /* check.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = check.wav; sourceTree = "<group>"; };
+		F323272024080E0300A5E0D0 /* bomb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bomb.wav; sourceTree = "<group>"; };
+		F323272124080E0400A5E0D0 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		F323272224080E0400A5E0D0 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = start.wav; sourceTree = "<group>"; };
+		F323272A240A484900A5E0D0 /* MyNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		F323272B240A484900A5E0D0 /* MyNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F32326F32406608900A5E0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F32326ED2406608900A5E0D0 = {
+			isa = PBXGroup;
+			children = (
+				F32326F82406608900A5E0D0 /* MineSweeper */,
+				F32326F72406608900A5E0D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F32326F72406608900A5E0D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F32326F62406608900A5E0D0 /* MineSweeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F32326F82406608900A5E0D0 /* MineSweeper */ = {
+			isa = PBXGroup;
+			children = (
+				F32326F92406608900A5E0D0 /* AppDelegate.h */,
+				F32326FA2406608900A5E0D0 /* AppDelegate.m */,
+				F32326FC2406608900A5E0D0 /* ViewController.h */,
+				F32326FD2406608900A5E0D0 /* ViewController.m */,
+				F32326FF2406608900A5E0D0 /* Main.storyboard */,
+				F32327022406608B00A5E0D0 /* Assets.xcassets */,
+				F32327042406608B00A5E0D0 /* LaunchScreen.storyboard */,
+				F32327072406608B00A5E0D0 /* Info.plist */,
+				F32327082406608B00A5E0D0 /* main.m */,
+				F323270F240660A200A5E0D0 /* GameView.h */,
+				F3232710240660A200A5E0D0 /* GameView.m */,
+				F32327122406C0FB00A5E0D0 /* MyThread.h */,
+				F32327132406C0FB00A5E0D0 /* MyThread.m */,
+				F323271A24078D2800A5E0D0 /* GameEngineNative.c */,
+				F323271B24078D2800A5E0D0 /* GameEngineNative.h */,
+				F323271D2407EB9300A5E0D0 /* StateSetter.h */,
+				F323272024080E0300A5E0D0 /* bomb.wav */,
+				F323271F24080E0300A5E0D0 /* check.wav */,
+				F323271E24080E0300A5E0D0 /* marking.wav */,
+				F323272224080E0400A5E0D0 /* start.wav */,
+				F323272124080E0400A5E0D0 /* win.wav */,
+				F323272A240A484900A5E0D0 /* MyNavigationController.h */,
+				F323272B240A484900A5E0D0 /* MyNavigationController.m */,
+			);
+			path = MineSweeper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F32326F52406608900A5E0D0 /* MineSweeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F323270C2406608B00A5E0D0 /* Build configuration list for PBXNativeTarget "MineSweeper" */;
+			buildPhases = (
+				F32326F22406608900A5E0D0 /* Sources */,
+				F32326F32406608900A5E0D0 /* Frameworks */,
+				F32326F42406608900A5E0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineSweeper;
+			productName = MineSweeper;
+			productReference = F32326F62406608900A5E0D0 /* MineSweeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F32326EE2406608900A5E0D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = youngpark;
+				TargetAttributes = {
+					F32326F52406608900A5E0D0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F32326F12406608900A5E0D0 /* Build configuration list for PBXProject "MineSweeper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F32326ED2406608900A5E0D0;
+			productRefGroup = F32326F72406608900A5E0D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F32326F52406608900A5E0D0 /* MineSweeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F32326F42406608900A5E0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F323272624080E0400A5E0D0 /* win.wav in Resources */,
+				F323272524080E0400A5E0D0 /* bomb.wav in Resources */,
+				F323272324080E0400A5E0D0 /* marking.wav in Resources */,
+				F323272724080E0400A5E0D0 /* start.wav in Resources */,
+				F32327062406608B00A5E0D0 /* LaunchScreen.storyboard in Resources */,
+				F323272424080E0400A5E0D0 /* check.wav in Resources */,
+				F32327032406608B00A5E0D0 /* Assets.xcassets in Resources */,
+				F32327012406608900A5E0D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F32326F22406608900A5E0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32326FE2406608900A5E0D0 /* ViewController.m in Sources */,
+				F323272C240A484900A5E0D0 /* MyNavigationController.m in Sources */,
+				F32327092406608B00A5E0D0 /* main.m in Sources */,
+				F323271C24078D2800A5E0D0 /* GameEngineNative.c in Sources */,
+				F3232711240660A200A5E0D0 /* GameView.m in Sources */,
+				F32327142406C0FB00A5E0D0 /* MyThread.m in Sources */,
+				F32326FB2406608900A5E0D0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F32326FF2406608900A5E0D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32327002406608900A5E0D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F32327042406608B00A5E0D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32327052406608B00A5E0D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F323270A2406608B00A5E0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F323270B2406608B00A5E0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F323270D2406608B00A5E0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBK4HMC59B;
+				INFOPLIST_FILE = MineSweeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youngpark.MineSweeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F323270E2406608B00A5E0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBK4HMC59B;
+				INFOPLIST_FILE = MineSweeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youngpark.MineSweeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F32326F12406608900A5E0D0 /* Build configuration list for PBXProject "MineSweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F323270A2406608B00A5E0D0 /* Debug */,
+				F323270B2406608B00A5E0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F323270C2406608B00A5E0D0 /* Build configuration list for PBXNativeTarget "MineSweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F323270D2406608B00A5E0D0 /* Debug */,
+				F323270E2406608B00A5E0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F32326EE2406608900A5E0D0 /* Project object */;
+}
